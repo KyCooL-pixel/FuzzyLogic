@@ -176,7 +176,7 @@ public class Dianogsis
         //now do the plotting
         JMathPlotter plotter = new JMathPlotter(17, 17, 14);
         plotter.plotControlSurface("Control Surface",
-                new String[]{calcification.getName(), mass.getName(), "Impression"}, x, y, z, new Tuple(0.0,30.0), true);
+                new String[]{calcification.getName(), mass.getName(), "Impression"}, x, y, z, new Tuple(0.-20,20), true);
        plotter.show("Type-1 Fuzzy Logic System Control Surface for Breast Cancer Mammogram Diagnosis System Example");
     }
 
